@@ -14,10 +14,10 @@ SI NO TIENES NINGUNO TE ACONSEJO ROOT EXPLORER
 DESCARGAR AQUÍ :
 https://filehippo.com/es/android/download_root-explorer/4.11.5/***
 
-COPIARLOS EN ***/data/data/com.termux/files/home/***
+COPIAR EN ***/data/data/com.termux/files/home/***
 
 
-CAMBIAR PERMISOS AL ARCHIVO install , DAR PERMISOS DE EJECUCIÓN ,CON ROOT EXPLORER***
+CAMBIAR PERMISOS AL ARCHIVO install , CAMBIAR A PERMISOS DE EJECUCIÓN ,CON ROOT EXPLORER***
 
 
 EJECUTAR CON COMANDO : ***./install***
