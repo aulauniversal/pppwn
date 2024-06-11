@@ -17,7 +17,7 @@ SI NO TIENES NINGUNO TE ACONSEJO ROOT EXPLORER
 DESCARGAR AQUÍ :
 https://filehippo.com/es/android/download_root-explorer/4.11.5/***
 
-**-COPIAR EN** ***/data/data/com.termux/files/home/***
+**-COPIAR ARCHIVOS "install, install_rasp" Y CARPETAS "/cpu/ y /stages/"  EN** ***/data/data/com.termux/files/home/***
 
 
 **-CONCEDER PERMISOS DE EJECUCIÓN CON ROOT EXPLORER AL ARCHIVO install**
