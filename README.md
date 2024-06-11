@@ -39,6 +39,15 @@ Todo esto generará un archivo que se llamará "run" y nos lo creará ya con la 
 
 EJECUTAR EL ARCHIVO GENERADO DESPUES DE LA INSTALACIÓN  ***./run***
 
+*****PARA RASPERRY PI Y OTROS SISTEMAS LINUX****
+
+*Deberas copiar los archivos en la carpeta /root/ de la raiz del sistema y una vez copiados ubicarte en ella.
+
+*Se incluye archivo ***install_rasp*** al cual deberas de otorgar permisos de ejecución con el comando : ***sudo chmod 777 install_rasp*** 
+
+*Ejecutar con ./install_rasp y seguir las instrucciones , son los mismos pasos anteriormente mencionados, la diferencia en rasperry es que cambia el directorio
+de ejecucion y copia de archivos ya que no vamos a usar termux.
+
 
 (Este archivo va a contener la configuracion siempre guardada lista para ejecutar , si no cambian las condiciones, (terminal, celular, tablet , USB Ethernet etc...)
 Si quisieras volver a reconfigurar por algún motivo de cambio de harware o versión de firmware de ps4 solo tienes que volver a ejecutar el archivo " install " 
