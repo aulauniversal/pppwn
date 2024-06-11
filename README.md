@@ -1,6 +1,7 @@
 Archivos C++ Compilados Valido para versiones Celular Tablet Tvbox con Arquitectura ARM , MIPS, MIPSEL , X86_64 , CORTEX , AARCH64 ,PI ZERO W, MPCORENOVFP.
+REQUESITOS:
 
-**NECESARIO ADAPTADOR USB ETHERNET, OTG O USB-C
+**NECESARIO ADAPTADOR USB ETHERNET, OTG O USB-C**
 
 **NECESARIO SER ROOT , VALIDO PARA TODO TIPO DE ROOTEOS**
 
@@ -16,13 +17,13 @@ SI NO TIENES NINGUNO TE ACONSEJO ROOT EXPLORER
 DESCARGAR AQUÍ :
 https://filehippo.com/es/android/download_root-explorer/4.11.5/***
 
-COPIAR EN *** /data/data/com.termux/files/home/ ***
+**COPIAR EN** ***/data/data/com.termux/files/home/***
 
 
-**CONCEDER PERMISOS DE EJECUCIÓN CON ROOT EXPLORER AL ARCHIVO install
+**CONCEDER PERMISOS DE EJECUCIÓN CON ROOT EXPLORER AL ARCHIVO install**
 
 
-**INICIAR CON COMANDO : ***./install***
+**INICIAR CON COMANDO** : ***./install***
 
 
 El script detectara automaticamente la arquitectura entre las diferentes selecciones, si no la encontrase nos saldrá un menú para selección manual
