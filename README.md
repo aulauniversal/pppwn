@@ -14,7 +14,7 @@ SI NO TIENES NINGUNO TE ACONSEJO ROOT EXPLORER
 DESCARGAR AQUÍ :
 https://filehippo.com/es/android/download_root-explorer/4.11.5/***
 
-COPIAR EN ***/data/data/com.termux/files/home/***
+COPIÁR EN ***/data/data/com.termux/files/home/***
 
 
 CONCEDÉR PERMISOS DE EJECUCIÓN CON ROOT EXPLORER
