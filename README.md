@@ -1,9 +1,12 @@
 Valido para versiones Celular Tablet Tvbox con Arquitectura ARM , MIPS, MIPSEL , X86_64 , CORTEX , AARCH64 ,PI ZERO W, MPCORENOVFP.
 
 ***NECESARIO SER ROOT , VALIDO PARA ROOT MAGISK***
-***NECESARIO TENER TERMUX INSTALADO , AQUI PARA LA ULTIMA VERSIÓN : https://f-droid.org/repo/com.termux_118.apk***
-***COPIAR LOS ARCHIVOS A LA RAIZ DE TERMUX CON EL GESTOR QUE UTILICES , SI NO TIENES NINGUNO TE ACONSEJO ROOT EXPLORER 
-DESCARGAR AQUÍ : https://filehippo.com/es/android/download_root-explorer/4.11.5/***
+***NECESARIO TENER TERMUX INSTALADO , AQUI PARA LA ULTIMA VERSIÓN
+: https://f-droid.org/repo/com.termux_118.apk***
+***COPIAR LOS ARCHIVOS A LA RAIZ DE TERMUX CON EL GESTOR QUE UTILICES ,
+SI NO TIENES NINGUNO TE ACONSEJO ROOT EXPLORER 
+DESCARGAR AQUÍ :
+https://filehippo.com/es/android/download_root-explorer/4.11.5/***
 
 ***COPIARLOS EN ***/data/data/com.termux/files/home/***
 ***CAMBIAR PERMISOS AL ARCHIVO install , DAR PERMISOS DE EJECUCIÓN ,CON ROOT EXPLORER***
