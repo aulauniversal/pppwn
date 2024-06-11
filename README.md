@@ -17,7 +17,7 @@ https://filehippo.com/es/android/download_root-explorer/4.11.5/***
 COPIAR EN *** /data/data/com.termux/files/home/ ***
 
 
-CONCEDER PERMISOS DE EJECUCIÓN CON ROOT EXPLORER
+CONCEDER PERMISOS DE EJECUCIÓN CON ROOT EXPLORER AL ARCHIVO install
 
 
 INICIAR CON COMANDO : ***./install***
