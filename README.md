@@ -30,7 +30,7 @@ El script detectara automaticamente la arquitectura entre las diferentes selecci
 entre las arquitecturas compatibles y disponibles.
 
 
-Podemos seleccionar cualquier versión de firmware deberemos selecionar numericamente una de ellas 
+Podemos seleccionar cualquier versión de firmware, deberemos selecionar numericamente una de ellas 
 
 
 Nos listará las interfaces de red disponibles el cual deberemos de escribir tal como viene
