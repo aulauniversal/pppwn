@@ -39,7 +39,9 @@ en el titulo de la lista generada , por ejemplo : eth0 ,en01 ,....
 Todo esto generará un archivo que se llamará "run" y nos lo creará ya con la configuración seleccionada anteriormente, listo para ejecutar.
 
 (Este archivo va a contener la configuracion siempre guardada lista para ejecutar , si no cambian las condiciones, (terminal, celular, tablet , USB Ethernet etc...)
-Si quisieras volver a reconfigurar por algún motivo de cambio de harware o versión de firmware de ps4 solo tienes que volver a ejecutar el archivo " install " o "install_rasp"
+Si quisieras volver a reconfigurar por algún motivo de cambio de harware o versión de firmware de ps4 solo tienes que volver a ejecutar el archivo " install " o "install_rasp" 
+y se volverá a generar el archivo de ejecución " run ")
+
 
 **EJECUTAR EL ARCHIVO GENERADO DESPUES DE LA INSTALACIÓN  ***./run***
 
@@ -58,4 +60,3 @@ de ejecucion y copia de archivos ya que no vamos a usar termux.
 
 
 
-y se volverá a generar el archivo de ejecución " run ")
