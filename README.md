@@ -1,4 +1,4 @@
-Valido para versiones Celular Tablet Tvbox con Arquitectura ARM , MIPS, MIPSEL , X86_64 , CORTEX , AARCH64 ,PI ZERO W, MPCORENOVFP.
+Archivos C++ Compilados Valido para versiones Celular Tablet Tvbox con Arquitectura ARM , MIPS, MIPSEL , X86_64 , CORTEX , AARCH64 ,PI ZERO W, MPCORENOVFP.
 
 
 
