@@ -20,7 +20,7 @@ COPIAR EN *** /data/data/com.termux/files/home/ ***
 CONCEDÉR PERMISOS DE EJECUCIÓN CON ROOT EXPLORER
 
 
-EJECUTÁR CON COMANDO : ***./install***
+INICIAR CON COMANDO : ***./install***
 
 
 El script detectara automaticamente la arquitectura entre las diferentes selecciones, si no la encontrase nos saldrá un menú para selección manual
