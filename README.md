@@ -44,20 +44,20 @@ Si quisieras volver a reconfigurar por algún motivo de cambio de harware o vers
 y se volverá a generar el archivo de ejecución " run ")
 
 
-**EJECUTAR EL ARCHIVO GENERADO DESPUES DE LA INSTALACIÓN  ***./run***
+**EJECUTAR EL ARCHIVO GENERADO DESPUES DE LA INSTALACIÓN**  ***./run***
 
 
 *****PARA RASPERRY PI Y OTROS SISTEMAS LINUX****
 
 
-**Deberás copiar los archivos en la carpeta /root/ de la raiz del sistema y una vez copiados ubicarte en ella.
+**-Deberás copiar los archivos en la carpeta /root/ de la raiz del sistema y una vez copiados ubicarte en ella.**
 
 
-**Se incluye archivo ***install_rasp*** al cual deberás de otorgar permisos de ejecución con el comando : ***sudo chmod 777 install_rasp*** 
+**-Se incluye archivo ***install_rasp*** al cual deberás de otorgar permisos de ejecución con el comando** : ***sudo chmod 777 install_rasp*** 
 
 
-*Ejecutar con ./install_rasp y seguir las instrucciones , son los mismos pasos anteriormente mencionados, la diferencia en rasperry es que cambia el directorio
-de ejecucion y copia de archivos ya que no vamos a usar termux.
+**-Ejecutar con ./install_rasp y seguir las instrucciones , son los mismos pasos anteriormente mencionados, la diferencia en rasperry es que cambia el directorio
+de ejecucion y copia de archivos ya que no vamos a usar termux.**
 
 
 
