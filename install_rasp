@@ -1,0 +1,179 @@
+#!/bin/bash
+
+# Comprobar la arquitectura del terminal
+arch=$(uname -m)
+
+# Establecer el directorio de pppwn basado en la arquitectura
+case "$arch" in
+    "aarch64")
+        pppwn_path="cpu/aarch64-linux-musl"
+        ;;
+    "armv7l")
+        echo "Selecciona la sub-arquitectura arm:"
+        echo "1) cortex_a7"
+        echo "2) mpcorenovfp"
+        echo "3) pi_zero_w"
+        read -p "Elige una opción: " option
+        case "$option" in
+            1)
+                pppwn_path="cpu/cortex_a7"
+                ;;
+            2)
+                pppwn_path="cpu/mpcorenovfp"
+                ;;
+            3)
+                pppwn_path="cpu/pi_zero_w"
+                ;;
+            *)
+                echo "Opción no válida. Saliendo."
+                exit 1
+                ;;
+        esac
+        ;;
+    "mipsel")
+        pppwn_path="cpu/mipsel"
+        ;;
+    "mips")
+        pppwn_path="cpu/mips"
+        ;;
+    "x86_64")
+        pppwn_path="cpu/x86_64"
+        ;;
+    *)
+        echo "Arquitectura no reconocida: $arch"
+        echo "Selecciona la arquitectura manualmente:"
+        echo "1) aarch64-linux-musl"
+        echo "2) arm-linux-musleabi(cortex_a7)"
+        echo "3) arm-linux-musleabi(mcore_novfp)"
+        echo "4) arm-linux-musleabi(pi_zero_w)"
+        echo "5) mipsel-linux-musl"
+        echo "6) mips-linux-musl"
+        echo "7) x86_64-linux-musl"
+        read -p "Elige una opción: " option
+        case "$option" in
+            1)
+                pppwn_path="cpu/aarch64-linux-musl"
+                ;;
+            2)
+                pppwn_path="cpu/cortex_a7"
+                ;;
+            3)
+                pppwn_path="cpu/mcorenovfp"
+                ;;
+            4)
+                pppwn_path="cpu/pi_zero_w"
+                ;;
+            5)
+                pppwn_path="cpu/mipsel"
+                ;;
+            6)
+                pppwn_path="cpu/mips"
+                ;;
+            7)
+                pppwn_path="cpu/x86_64"
+                ;;
+            *)
+                echo "Opción no válida. Saliendo."
+                exit 1
+                ;;
+        esac
+        ;;
+esac
+
+# Instalar tsu
+pkg install tsu
+
+# Ejecutar pppwn con sudo en el directorio correcto
+cd "$pppwn_path"
+sudo chmod 777 pppwn
+sudo ./pppwn list
+
+# Pedir al usuario que seleccione la interfaz
+echo "Introduce la interfaz a usar:"
+read -p "Interfaz: " interface
+
+# Selección de versión del firmware
+echo "Selecciona la versión del firmware:"
+echo "1) 1100 - PS4-11.00"
+echo "2) 1071 - PS4-10.71"
+echo "3) 1070 - PS4-10.70"
+echo "4) 1050 - PS4-10.50"
+echo "5) 1001 - PS4-10.01"
+echo "6) 1000 - PS4-10.00"
+echo "7) 960 - PS4-9.60"
+echo "8) 951 - PS4-9.51"
+echo "9) 950 - PS4-9.50"
+echo "10) 904 - PS4-9.04"
+echo "11) 903 - PS4-9.03"
+echo "12) 900 - PS4-9.00"
+read -p "Elige una opción: " fw_option
+
+# Asignar el firmware seleccionado
+case "$fw_option" in
+    1)
+        firmware_version="1100"
+        firmware_stage="stages/PS4-11.00"
+        ;;
+    2)
+        firmware_version="1071"
+        firmware_stage="stages/PS4-10.71"
+        ;;
+    3)
+        firmware_version="1070"
+        firmware_stage="stages/PS4-10.70"
+        ;;
+    4)
+        firmware_version="1050"
+        firmware_stage="stages/PS4-10.50"
+        ;;
+    5)
+        firmware_version="1001"
+        firmware_stage="stages/PS4-10.01"
+        ;;
+    6)
+        firmware_version="1000"
+        firmware_stage="stages/PS4-10.00"
+        ;;
+    7)
+        firmware_version="960"
+        firmware_stage="stages/PS4-9.60"
+        ;;
+    8)
+        firmware_version="951"
+        firmware_stage="stages/PS4-9.51"
+        ;;
+    9)
+        firmware_version="950"
+        firmware_stage="stages/PS4-9.50"
+        ;;
+    10)
+        firmware_version="904"
+        firmware_stage="stages/PS4-9.04"
+        ;;
+    11)
+        firmware_version="903"
+        firmware_stage="stages/PS4-9.03"
+        ;;
+    12)
+        firmware_version="900"
+        firmware_stage="stages/PS4-9.00"
+        ;;
+    *)
+        echo "Opción no válida. Saliendo."
+        exit 1
+        ;;
+esac
+
+# Crear el archivo run con la interfaz y el firmware seleccionados
+run_script_path="/root/run"
+cat <<EOL > $run_script_path
+
+#Ejecutar el script C++ con sudo en el directorio correcto
+cd /root/$pppwn_path
+sudo ./pppwn --interface "$interface" --fw $firmware_version --stage1 "/root/$firmware_stage/stage1.bin" --stage2 "/root/$firmware_stage/stage2.bin" -a
+EOL
+
+# Dar permisos de ejecución al archivo run
+chmod +x $run_script_path
+
+echo "El archivo 'run' ha sido creado y configurado en $run_script_path con la interfaz $interface y el firmware $firmware_version."
