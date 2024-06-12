@@ -51,7 +51,8 @@ y se volverá a generar el archivo de ejecución " run "
 
 
 **EJECUTAR EL ARCHIVO GENERADO DESPUES DE LA INSTALACIÓN**  ***./run***
-![Snapshot_6](https://github.com/aulauniversal/pppwn-Tvbox-Rasp.Zero-Android-FULL-Version/assets/168633732/2d2e74d8-70a1-464c-8b3d-eacf41f6c752)
+![Snapshot_9](https://github.com/aulauniversal/pppwn-Tvbox-Rasp.Zero-Android-FULL-Version/assets/168633732/18362315-5f53-4d66-8275-9ed3cf9e2d44)
+
 
 ![Snapshot_7](https://github.com/aulauniversal/pppwn-Tvbox-Rasp.Zero-Android-FULL-Version/assets/168633732/c05641ff-aa59-4313-a426-4cfdb13707b7)
 
