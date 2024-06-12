@@ -50,18 +50,20 @@ y se volverá a generar el archivo de ejecución " run "
 *****PARA RASPERRY PI Y OTROS SISTEMAS LINUX****
 
 
-**-Deberás copiar los archivos en la carpeta /root/ de la raiz del sistema y una vez copiados ubicarte en ella.**
+**-Copiar archivo "install_notermux" Y carpetas "/cpu/ y /stages/"  en la siguiente ubicación** ***/root/***
 
 
-**-COPIAR ARCHIVOS "install_notermux" Y CARPETAS "/cpu/ y /stages/"  EN LA SIGUIENTE UBICACIÓN** ***/root/***
+**-Ubícate en la carpeta anterieormente mencionada /root/**
 
 
 **-Otorgar permisos de ejecución con el comando** : ***sudo chmod 777 install_notermux*** 
 
 
-**-Ejecutar con ***./install_notermux*** y seguir las instrucciones , si no actúa la selección manual quiere decir que lo a detectado automaticamente
+**-Ejecutar con ***./install_notermux*** y seguir las instrucciones** 
+
+(si no actúa la selección manual quiere decir que lo a detectado automaticamente
 , son los mismos pasos anteriormente mencionados, la diferencia en rasperry y otros sistemas linux es el cambio de directorio
-de ejecucion y copia de archivos ya que no vamos a usar termux.**
+de ejecucion y copia de archivos ya que no vamos a usar termux.)
 
 
 
