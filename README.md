@@ -56,7 +56,7 @@ y se volverá a generar el archivo de ejecución " run "
 **-Se incluye archivo ***install_notermux*** al cual deberás de otorgar permisos de ejecución con el comando** : ***sudo chmod 777 install_rasp*** 
 
 
-**-Ejecutar con ./install_rasp y seguir las instrucciones , son los mismos pasos anteriormente mencionados, la diferencia en rasperry es que cambia el directorio
+**-Ejecutar con ./install_notermux y seguir las instrucciones , son los mismos pasos anteriormente mencionados, la diferencia en rasperry y otros sistemas linux es el cambio de directorio
 de ejecucion y copia de archivos ya que no vamos a usar termux.**
 
 
