@@ -17,7 +17,7 @@ SI NO TIENES NINGUNO TE ACONSEJO ROOT EXPLORER
 DESCARGAR AQUÍ :
 https://filehippo.com/es/android/download_root-explorer/4.11.5/***
 
-**-COPIAR ARCHIVOS "install, install_rasp" Y CARPETAS "/cpu/ y /stages/"  EN LA SIGUIENTE UBICACIÓN** ***/data/data/com.termux/files/home/***
+**-COPIAR ARCHIVOS "install_termux" Y CARPETAS "/cpu/ y /stages/"  EN LA SIGUIENTE UBICACIÓN** ***/data/data/com.termux/files/home/***
 
 
 **-CONCEDER PERMISOS DE EJECUCIÓN CON ROOT EXPLORER AL ARCHIVO install**
@@ -53,10 +53,14 @@ y se volverá a generar el archivo de ejecución " run "
 **-Deberás copiar los archivos en la carpeta /root/ de la raiz del sistema y una vez copiados ubicarte en ella.**
 
 
-**-Se incluye archivo ***install_notermux*** al cual deberás de otorgar permisos de ejecución con el comando** : ***sudo chmod 777 install_rasp*** 
+**-COPIAR ARCHIVOS "install_notermux" Y CARPETAS "/cpu/ y /stages/"  EN LA SIGUIENTE UBICACIÓN** ***/root/***
 
 
-**-Ejecutar con ./install_notermux y seguir las instrucciones , son los mismos pasos anteriormente mencionados, la diferencia en rasperry y otros sistemas linux es el cambio de directorio
+**-Otorgar permisos de ejecución con el comando** : ***sudo chmod 777 install_notermux*** 
+
+
+**-Ejecutar con ***./install_notermux*** y seguir las instrucciones , si no actúa la selección manual quiere decir que lo a detectado automaticamente
+, son los mismos pasos anteriormente mencionados, la diferencia en rasperry y otros sistemas linux es el cambio de directorio
 de ejecucion y copia de archivos ya que no vamos a usar termux.**
 
 
