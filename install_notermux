@@ -169,6 +169,8 @@ run_script_path="/root/run"
 cat <<EOL > $run_script_path
 
 #Ejecutar el script C++ con sudo en el directorio correcto
+mv /root/pppwn-main/cpu/ /root/
+mv /root/pppwn-main/stages/ /root/
 cd /root/$pppwn_path
 sudo ./pppwn --interface "$interface" --fw $firmware_version --stage1 "/root/$firmware_stage/stage1.bin" --stage2 "/root/$firmware_stage/stage2.bin" -a
 EOL
